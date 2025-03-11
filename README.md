@@ -13,7 +13,6 @@ It allows you to combine classes that have constructors with different generic t
 - **Compatibility with complex classes**: Works even with classes that require complex arguments for their constructors.
 
 ```typescript
-
 export function mixin<T1, TRes1, T2, TRes2>(
 	base: Constructor<T1, TRes1>,
 	mixin: Constructor<T2, TRes2>,
